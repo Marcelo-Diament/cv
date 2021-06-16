@@ -1,0 +1,25 @@
+/* RESET */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+main {
+  display: flex;
+  /* flex-direction: column;
+  flex-wrap: nowrap; */
+  flex-flow: column nowrap;
+}
+
+main section {
+  background-color: rgb(192, 221, 255);
+}
+
+main section:first-of-type {
+  background-color: pink;
+}
+
+main section:last-child {
+  background-color: rgb(255, 249, 192);
+}
